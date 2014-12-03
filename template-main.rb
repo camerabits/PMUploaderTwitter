@@ -766,6 +766,14 @@ class TwitterFileUploader
     # @ui.send_button.enable(false)
   end
 
+  def imglink_button_spec
+    { :filename => "logo.tif", :bgcolor => "ffffff" }
+  end
+
+  def imglink_url
+    "https://www.twitter.com/"
+  end
+
   protected
 
   def create_data_fetch_worker
